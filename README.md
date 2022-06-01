@@ -6,6 +6,19 @@ Lambda를 사용하여 CloudWatch 대시보드에 Scale-Out 된 EC2의 지표를
 
 
 ![image](https://user-images.githubusercontent.com/43159901/171341416-d5c734e3-a5cc-4631-9459-20d129339d80.png)
+  
+
+본 내용에서 구현된 지표값은 다음과 같다. <br>
+* EC2 - CPUtilization/NetworkIn/NetworkOut/EBSReadOps/EBSWriteOps/Memory (CloudWatchAgent 사용 필요)
+* VPN - TunnelDataOut/TunnelDataIn
+* RDS - CPUtilization/FreeStorageSpace/DatabaseConnections/DBLoad
+* ElastiCache - CurrConnections/SwapUsage/NetworkBytesIn/NetworkBytesOut
+* ALB - UnhealthyHost/HTTPCode_Target_2XX_Count/HTTPCode_Target_5XX_Count/RequestCount/TargetResponseTime
+* EFS - PercentIOLimit
+
+
+
+
 
 
 ## Agenda
